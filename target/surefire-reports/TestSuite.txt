@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 10.089 sec <<< FAILURE! - in TestSuite
+createEmployee(com.equifax1.testcases.TestDELETE)  Time elapsed: 1.855 sec  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.equifax1.testcases.TestDELETE.createEmployee(TestDELETE.java:44)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.equifax1.testcases.TestDELETE.createEmployee(TestDELETE.java:44)
+
+getWeatherDetails(com.equifax1.testcases.TestGET)  Time elapsed: 0.634 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<429> but was:<200>
+	at com.equifax1.testcases.TestGET.getWeatherDetails(TestGET.java:29)
+
+addPostNewEmpoyee(com.equifax1.testcases.TestCreate)  Time elapsed: 0.914 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+	at com.equifax1.testcases.TestCreate.addPostNewEmpoyee(TestCreate.java:64)
+
+addPostNewEmpoyee(com.equifax1.testcases.TestCreate)  Time elapsed: 0.81 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+	at com.equifax1.testcases.TestCreate.addPostNewEmpoyee(TestCreate.java:64)
+

@@ -1,0 +1,5 @@
+com/equifax1/utility/XLUtils.class
+com/equifax1/testcases/TestGET.class
+com/equifax1/testcases/TestDELETE.class
+com/equifax1/utility/RestUtilities.class
+com/equifax1/testcases/TestCreate.class
